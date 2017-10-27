@@ -20,9 +20,9 @@ cfg.secret = process.env.APP_SECRET || 'keyboard cat';
 // A good practice is to store these string values as system environment
 // variables, and load them from there as we are doing below. Alternately,
 // you could hard code these values here as strings.
-cfg.accountSid = process.env.TWILIO_ACCOUNT_SID;
-cfg.authToken = process.env.TWILIO_AUTH_TOKEN;
-cfg.sendingNumber = process.env.TWILIO_NUMBER;
+cfg.accountSid = process.env.AC6ddf63ab2226047ba380b984a15ab48d;
+cfg.authToken = process.env.5c3fc0712f57dcf98cebc15594dfd5a7;
+cfg.sendingNumber = process.env.+18178139727;
 
 var requiredConfig = [cfg.accountSid, cfg.authToken, cfg.sendingNumber];
 var isConfigured = requiredConfig.every(function(configValue) {
